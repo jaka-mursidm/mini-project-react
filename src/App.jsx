@@ -5,6 +5,7 @@ const App = () => {
   const x = 10;
   const y =  5;
   const buah = ['Pisang','Jeruk','Semangka','Apel','Mangga'];
+  const login = true;
   return (
     <>
       <h1 className='text-2xl'>Hello World!, My Name is {name}</h1>
@@ -17,6 +18,8 @@ const App = () => {
           <li key={index}>{buah}</li>
         ))}
       </ul>
+
+      <h3 className='text-xl mt-3'>{login ? 'Selamat datang member!' : 'Selamat datang tamu!'}</h3>
     </>
   
   );
