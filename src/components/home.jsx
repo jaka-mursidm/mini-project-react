@@ -1,6 +1,5 @@
 import React from 'react'
-import Button from './button'
-const home = () => {
+const Home = () => {
   return (
     <>
     <div className='min-h-80 bg-gradient-to-l from-indigo-400 to-indigo-800 text-white flex justify-center items-center'>
@@ -14,4 +13,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
