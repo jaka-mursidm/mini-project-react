@@ -1,5 +1,5 @@
 import React from 'react'
-const Home = () => {
+const Hero = () => {
   return (
     <>
     <div className='min-h-80 bg-gradient-to-l from-indigo-400 to-indigo-800 text-white flex justify-center items-center'>
@@ -13,4 +13,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Hero
