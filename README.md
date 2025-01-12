@@ -1,4 +1,4 @@
-# Belajar react
+# Belajar react - Website Lowongan Pekerjaan
 
 Hi!, disini saya mencoba membuat proyek lowongan pekerjaan menggunakan teknologi pengembangan web react, ini adalah proyek react pertama saya.
 
