@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <Hero/>
+      <Hero title ='Semua lowongan ada disini' subtitle='Jelajahi perusahaan dan menjadi profesional'/>
     </>
   
   );
