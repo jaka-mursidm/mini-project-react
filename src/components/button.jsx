@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
 
-const Button = () => {
+const Button = ({
+  textSize = "text-md",
+  bg = "bg-blue-600 hover:bg-blue-500",
+}) => {
   return (
     <>
-        <button className='bg-opacity-35 bg-white py-2 px-6 hover:bg-indigo-500 duration-100 text-white rounded-lg'>
-            <span>Button</span>
-        </button>
+      <button
+        className={`${textSize} font-medium py-2 px-6 ${bg} duration-100 text-white rounded-2xl`}
+      >
+        <span>Button</span>
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
