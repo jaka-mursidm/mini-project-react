@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Card from "./Card";
 const JobList = () => {
   return (
@@ -5,7 +6,7 @@ const JobList = () => {
       <h2 className="text-2xl font-medium mb-4">
         Telusuri keahlian dan minat anda
       </h2>
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-3 gap-3 mb-4">
         <a href="#" className="group/card">
           <Card p="p-4" style="group-hover/card:border-blue-700">
             <div className="flex flex-col align-center justify-center">
@@ -127,6 +128,14 @@ const JobList = () => {
           </Card>
         </a>
       </div>
+      <Button
+        textSize="text-sm"
+        bg="bg-gradient-to-l from-blue-400 to-blue-800"
+      >
+        <p>
+          Lihat selengkapnya <i class="fa-solid fa-arrow-right ml-1"></i>
+        </p>
+      </Button>
     </div>
   );
 };
