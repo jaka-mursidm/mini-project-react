@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import JobList from "./components/JobList";
 import Footer from "./components/Footer";
-
+import SearchFilter from "./components/SearchFilter";
 const App = () => {
   return (
     <>
@@ -12,6 +12,7 @@ const App = () => {
         title="Semua lowongan ada disini"
         subtitle="Jelajahi perusahaan dan menjadi profesional"
       />
+      <SearchFilter />
       <JobList />
       <Footer />
     </>
