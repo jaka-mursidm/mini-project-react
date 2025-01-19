@@ -14,7 +14,7 @@ const Navbar = () => {
             <Link to="/" className="nav-link duration-75">
               Beranda
             </Link>
-            <Link to="/lowongan" className="nav-link mx-4 duration-75">
+            <Link to="/lowongan" className="nav-link ml-4 duration-75">
               Lowongan
             </Link>
             <Link to="/perusahaan" className="nav-link mx-4 duration-75">
