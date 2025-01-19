@@ -11,19 +11,16 @@ const Navbar = () => {
             Belajar React
           </Link>
           <div>
-            <Link to="/" className="hover:text-blue-500 duration-75">
+            <Link to="/" className="nav-link duration-75">
               Beranda
             </Link>
-            <Link
-              to="/perusahaan"
-              className="hover:text-blue-500 mx-4 duration-75"
-            >
+            <Link to="/lowongan" className="nav-link mx-4 duration-75">
+              Lowongan
+            </Link>
+            <Link to="/perusahaan" className="nav-link mx-4 duration-75">
               Perusahaan
             </Link>
-            <Link
-              to="/tambah-pekerjaan"
-              className="hover:text-blue-500 duration-75"
-            >
+            <Link to="/tambah-pekerjaan" className="nav-link duration-75">
               Tambah pekerjaan
             </Link>
           </div>
