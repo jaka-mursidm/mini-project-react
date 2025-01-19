@@ -7,14 +7,18 @@
     font-family: "Montserrat", system-ui, sans-serif;
   }
   /* Navbar.css */
+  /* Navbar.css */
   .nav-link {
     @apply relative text-white no-underline;
   }
+
   .nav-link::after {
     content: "";
     @apply absolute left-0 bottom-[-6px] w-full h-0.5 bg-white transform scale-x-0 transition-transform duration-300 ease-in-out;
   }
-  .nav-link:hover::after {
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
     @apply transform scale-x-100;
   }
 }

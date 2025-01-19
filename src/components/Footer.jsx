@@ -12,7 +12,7 @@ const Footer = () => {
               target="_blank"
               title="Github"
             >
-              <i class="fa-brands fa-github ease-out duration-100 group-hover/icon:scale-110"></i>
+              <i className="fa-brands fa-github ease-out duration-100 group-hover/icon:scale-110"></i>
             </a>
             <a
               href="https://www.instagram.com/jaka.mursidm/"
@@ -20,14 +20,14 @@ const Footer = () => {
               className="group/icon"
               target="_blank"
             >
-              <i class="fa-brands fa-instagram ease-out duration-100 group-hover/icon:scale-110"></i>
+              <i className="fa-brands fa-instagram ease-out duration-100 group-hover/icon:scale-110"></i>
             </a>
             <a
               href="mailto:jaka.mursidm@gmail.com"
               className="group/icon"
               title="Gmail"
             >
-              <i class="fa-solid fa-envelope ease-out duration-100 group-hover/icon:scale-110"></i>
+              <i className="fa-solid fa-envelope ease-out duration-100 group-hover/icon:scale-110"></i>
             </a>
           </div>
           <p className="text-xs">

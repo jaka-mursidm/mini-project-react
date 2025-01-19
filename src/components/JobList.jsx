@@ -133,7 +133,7 @@ const JobList = () => {
         bg="bg-gradient-to-l from-blue-400 to-blue-800"
       >
         <p>
-          Lihat selengkapnya <i class="fa-solid fa-arrow-right ml-1"></i>
+          Lihat selengkapnya <i className="fa-solid fa-arrow-right ml-1"></i>
         </p>
       </Button>
     </div>
