@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
-      <Navbar />
       <Hero
         title="Semua lowongan ada disini"
         subtitle="Jelajahi perusahaan dan menjadi profesional"
